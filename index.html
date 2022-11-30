@@ -23,6 +23,8 @@
     <div class="container">
         <form action="" id="About_user">
 
+            <fieldset>
+
             <!--About the user-->
             Last Name <input type="text" name="About" id="lastname" placeholder="Enter your last name" required> <br>
             
@@ -33,7 +35,7 @@
 
             Age <input type="text" name="About" id="age" placeholder="Enter your age" required>
 
-
+        </fieldset>
         </form>
 
         <div class="contact">
@@ -48,12 +50,13 @@
             
             <!--Contact information about the user-->
 
-           Email address <input type="text" type="email" name="Contact" id="email" required placeholder="Enter your email address"> <br>
+          <fieldset>
+            Email address <input type="text" type="email" name="Contact" id="email" required placeholder="Enter your email address"> <br>
 
             Telephone number <input type="number" name="Contact" id="number" placeholder="Enter your number" required> <br>
 
             Office number <input type="number" name="Contact" id="officenumber" placeholder="Enter your number" required>
-
+            </fieldset>
 
         </form>
 
@@ -64,13 +67,25 @@
         </div>
 
         <div class="space--"></div>
-
-        <form action="" id="Education">
+        
+        <fieldset>
+        
+            <form action="" id="Education">
             Institution name <input type="text" name="school" id="institute" required placeholder="Enter the name of your school"> <br>
 
             Date entrolled <input type="date" name="school" id="date">
-
+        </fieldset>
         </form>
+
+        <div class="courses">
+            <h2>
+                Courses taken
+            </h2>
+        </div>
+
+        <div class="space---"></div>
+
+        <label for=""></label>
 
     </div>
 
