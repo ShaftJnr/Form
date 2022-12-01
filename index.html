@@ -17,7 +17,7 @@
     </div>
 
     <!--blank space-->
-    <div class="space"></div>
+    <div class="space"><hr></div>
 
     <!--Container-->
     <div class="container">
@@ -33,7 +33,7 @@
             Middle-Name <input type="text" name="About" id="middlename" placeholder="Enter your middle name" required> <br>
         
 
-            Age <input type="text" name="About" id="age" placeholder="Enter your age" required>
+            Age <input type="text" name="About" id="age" required>
 
         </fieldset>
         </form>
@@ -44,7 +44,7 @@
             </h2>
         </div>
 
-        <div class="space-"></div>
+        <div class="space-"><hr></div>
 
         <form action="" id="contact">
             
@@ -68,7 +68,7 @@
             </h2>
         </div>
 
-        <div class="space--"></div>
+        <div class="space--"><hr></div>
         
         <fieldset>
         <legend>Details</legend>
@@ -86,7 +86,7 @@
             </h2>
         </div>
 
-        <div class="space---"></div>
+        <div class="space---"><hr></div>
 
         <fieldset>
         <legend>Details</legend>
@@ -108,6 +108,55 @@
     <form action="submit">
         <button type="submit" >Submit</button>
     </form>
+
+
+    <!--CSS STYLING-->
+    <style>
+        
+        .space-,
+        .space--,
+        .space---{
+            width: 60%;
+            color: red;
+        }
+
+        hr{
+            width: 60%;
+           
+        }
+
+        .heading{
+            text-align: center;
+        }
+
+        /*For About you*/
+        #lastname,
+        #firstname,
+        #middlename{
+            width: 30%;
+         }
+
+         #age{
+            width: 4%;
+
+       }
+
+       /*For contacts*/
+
+       #email,
+       #number,
+       #officenumber{
+            width: 30%;
+       }
+
+
+       
+
+    
+       
+
+    </style>
+
 
  </body>
 </html>
